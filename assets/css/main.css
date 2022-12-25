@@ -2275,26 +2275,6 @@ button,
 
 /*neu eingefügt*/
 
-/**
-Helferlein für den Umstieg von bottom- auf top-margins
- */
-@mixin reset-margin-bottom-for-direct-descendants() {
-    > * {
-        margin-bottom: 0 !important;
-    }
-}
-
-@mixin set-margin-top-for-direct-descendant-siblings($margin) {
-    > * + * {
-        margin-top: $margin;
-    }
-}
-
-* {
-    box-sizing: border-box;
-}
-
-
 
 .gba-kachel {
   background-color: #fff;
