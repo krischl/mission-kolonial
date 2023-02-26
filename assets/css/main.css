@@ -2284,6 +2284,10 @@ button,
       visibility: hidden;
       width: 300px;
       height: 300px;
+      
+      top: 100%;
+      left: 50%; 
+      margin-left: -150px;
       background-color: black;
       color: #fff;
       text-align: center;
