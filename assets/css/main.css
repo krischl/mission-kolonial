@@ -2307,12 +2307,10 @@ button,
 
     /*Code von ChatGPT */
     
-
     .image-container {
       display: flex;
       justify-content: center;
       gap: 1cm; /* 1cm Abstand zwischen den Bildern */
-      flex-wrap: wrap; /* Umbruch der Bilder bei Bedarf */
     }
     /* Stil für die Bilder */
     .image-container img {
