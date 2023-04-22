@@ -2307,15 +2307,14 @@ button,
 
     /*Code von ChatGPT */
     .image-container {
-      display: inline-block;
-      width: calc(50% - 0.5cm); /* 50% Breite mit 0.5cm Abstand */
-      margin-right: 1cm; /* 1cm Abstand zwischen den Bildern */
-      vertical-align: top; /* Ausrichtung oben für Bilder unterschiedlicher Höhe */
-      box-sizing: border-box; /* Berücksichtigung des Abstands in der Breite */
+      display: flex;
+      justify-content: center;
+      gap: 1cm; /* 1cm Abstand zwischen den Bildern */
     }
     /* Stil für die Bilder */
     .image-container img {
-      width: 100%; /* Bilder füllen die Container-Breite aus */
+      flex: 1;
+      max-width: calc(50% - 0.5cm); /* 50% Breite mit 0.5cm Abstand */
       height: auto; /* Automatische Anpassung der Höhe für Proportionen */
     }
 
