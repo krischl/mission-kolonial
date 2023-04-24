@@ -2330,3 +2330,14 @@ button,
       height: auto;
     }
 
+
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+      gap: 10em;
+    }
+    
+    #gallery > figcaption {
+      grid-column: 1 / -1;
+    }
+
