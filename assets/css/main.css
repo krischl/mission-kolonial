@@ -2326,7 +2326,7 @@ button,
 
     .image-link {
       display: inline-block;
-      width: 50%;
-      height: 50%;
+      max-width: calc(50% - 0.5cm);
+      height: auto;
     }
 
