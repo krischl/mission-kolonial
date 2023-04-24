@@ -2324,3 +2324,9 @@ button,
       text-align: center;
     }
 
+    .image-link {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+
