@@ -2315,7 +2315,7 @@ button,
     /* Stil für die Bilder */
     .image-container img {
       flex: 1;
-      max-width: calc(70% - 0.5cm); /* 50% Breite mit 0.5cm Abstand */
+      max-width: calc(50% - 0.5cm); /* 50% Breite mit 0.5cm Abstand */
       height: auto; /* Automatische Anpassung der Höhe für Proportionen */
     }
     /* Stil für die Bildunterschriften */
